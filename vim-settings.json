@@ -1,0 +1,64 @@
+{
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before" : ["<c-j>"],
+            "after" : ["<c-f>"]
+        },
+        {
+            "before" : ["<c-k>"],
+            "after" : ["<c-u>"]
+        },
+        {
+            "before" : ["<c-f>"],
+            "after" : ["o", "<esc>"]
+        },
+        {
+            "before" : ["<c-u>"],
+            "after" : ["v", "e", "<s-u>"]
+        },
+        {
+            "before" : ["<tab>"],
+            "after" : ["v", ">"]
+        },
+        {
+            "before" : ["<s-tab>"],
+            "after" : ["v", "<"]
+        },
+    ],
+    "vim.insertModeKeyBindingsNonRecursive": [
+        {
+            "before" : ["<c-j>"],
+            "after" : ["<esc>", "<c-f>", "i"]
+        },
+        {
+            "before" : ["<c-k>"],
+            "after" : ["<esc>", "<c-u>", "i"]
+        },
+        {
+            "before" : ["<c-d>"],
+            "after" : ["<backspace>"]
+        },
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before" : ["<c-j>"],
+            "after" : ["<c-f>"]
+        },
+        {
+            "before" : ["<c-k>"],
+            "after" : ["<c-u>"]
+        },
+        {
+            "before" : ["<c-u>"],
+            "after" : ["<s-u>"]
+        },
+        {
+            "before" : ["<tab>"],
+            "after" : [">"]
+        },
+        {
+            "before" : ["<s-tab>"],
+            "after" : ["<"]
+        },
+    ],
+}
