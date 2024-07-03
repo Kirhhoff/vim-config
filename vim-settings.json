@@ -24,6 +24,10 @@
             "before" : ["<s-tab>"],
             "after" : ["v", "<"]
         },
+        {
+            "before" : ["<c-p>"],
+            "after" : ["<c-]>"],
+        },
     ],
     "vim.insertModeKeyBindingsNonRecursive": [
         {
@@ -37,6 +41,10 @@
         {
             "before" : ["<c-d>"],
             "after" : ["<backspace>"]
+        },
+        {
+            "before" : ["<c-p>"],
+            "after" : ["<esc>", "<c-]>"],
         },
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
@@ -59,6 +67,10 @@
         {
             "before" : ["<s-tab>"],
             "after" : ["<"]
+        },
+        {
+            "before" : ["<c-p>"],
+            "after" : ["<esc>", "<c-]>"],
         },
     ],
 }
